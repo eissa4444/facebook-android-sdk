@@ -10,9 +10,10 @@ object General {
     organization := "facebook",
     version := "3.0",
     versionCode := 1,
-    crossScalaVersions := Seq("2.9.1","2.9.2"),
-    platformName in Android := "android-17",
-    minSdkVersion := Some(7),
+    scalaVersion := "2.10.0",
+    crossScalaVersions := Seq("2.9.1","2.9.2","2.10.0"),
+    platformName in Android := "android-16",
+    minSdkVersion := Some(8),
     publishArtifact in packageDoc := false
   )
 
